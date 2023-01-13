@@ -1,0 +1,42 @@
+:root {
+  --color-primary: #000228;
+  --color-text: #4f5361;
+  --color-hover: #010446;
+  --color-p: #7d8589;
+  --color-bg: #1f3bb1;
+  --m-r: 165px;
+  --m-l: 165px;
+  --m-t: ;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  min-width: 98px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 22px;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_sub {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--color-hover);
+}
